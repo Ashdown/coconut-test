@@ -12,12 +12,13 @@
 
   .background-image {
     position: absolute;
-    background: url('http://getcoconut.com/wp-content/themes/coconut-theme/img/iphone-6-frame.png') no-repeat 0 0;
+    background: url('/assets/iphone-6-frame.png') no-repeat 0 0;
     background-size: 250px 511px;
     width: 250px;
     height: 511px;
     left: 50%;
     margin-left: -125px;
+//    z-index: 500;
   }
 
   .features-list {
@@ -31,6 +32,8 @@
   }
 
   .feature-image {
+    margin-left: auto;
+    margin-right: auto;
     width: 216px;
     height: auto;
   }
@@ -63,7 +66,7 @@
 
   .nav-list {
     position: absolute;
-    top: 448px;
+    top: 444px;
     right: 0;
     left: 0;
     border-top: 1px solid #F0EEED;
@@ -87,4 +90,7 @@
     width: 35px;
     height: auto;
   }
+
+
+
 }
