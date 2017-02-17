@@ -6,5 +6,62 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    list-style: none;
+    position: relative;
+  }
+
+  .background-image {
+    position: absolute;
+    background: url('http://getcoconut.com/wp-content/themes/coconut-theme/img/iphone-6-frame.png') no-repeat 0 0;
+    background-size: 250px 511px;
+    width: 250px;
+    height: 511px;
+    left: 50%;
+    margin-left: -125px;
+  }
+
+  .features-list {
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+  }
+
+  .feature-item {
+    margin-top: 63px;
+    text-align: center;
+  }
+
+  .feature-image {
+    width: 216px;
+    height: auto;
+  }
+
+  .content {
+    height: 310px;
+    background-color: #fff;
+    position: relative;
+    top: -140px;
+    padding: 0 33px;
+    overflow: hidden;
+  }
+
+  .feature-title,
+  .para {
+    font-family: 'Arco Perpetuo', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  .feature-title {
+    font-size: 20px;
+    margin-top: 110px;
+  }
+
+  .para {
+    margin-top: 13px;
+    font-size: 13px;
+  }
+
+  .breadcrumbs-list {
+    display: none;
   }
 }
