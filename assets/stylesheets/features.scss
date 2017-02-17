@@ -61,7 +61,30 @@
     font-size: 13px;
   }
 
-  .breadcrumbs-list {
-    display: none;
+  .nav-list {
+    position: absolute;
+    top: 448px;
+    right: 0;
+    left: 0;
+    border-top: 1px solid #F0EEED;
+    border-bottom: 1px solid #F0EEED;
+    background-color: #fff;
+    height: 76px;
+    text-align: center;
+  }
+
+  .nav-item {
+    display: inline-block;
+  }
+  .nav-link {
+    height: 75px;
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+  }
+  svg {
+    width: 35px;
+    height: auto;
   }
 }
