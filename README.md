@@ -1,7 +1,9 @@
-Sinatra Test App
-================
+Coconut Prototype
+=================
 
-Simple Ruby application with the following features
+Simple Ruby application for developing a prototype
+
+Uses the following
 
     * Sinatra
     * Hosted on heroku
