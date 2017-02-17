@@ -2,5 +2,5 @@
 
     'use strict';
 
-    window.console.log('test');
+    window.console.log('features');
 })();
