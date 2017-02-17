@@ -18,5 +18,6 @@ RSpec::Core::RakeTask.new(:feature) do |task|
   task.pattern = 'features/*spec.rb'
 end
 
+
 task :default=>[:spec, :feature, :jshint, :'jasmine:ci']
 
