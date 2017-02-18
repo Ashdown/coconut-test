@@ -8,7 +8,8 @@
         mobileFirst: true,
         arrows: false,
         infinite: false,
-        dots: false
+        dots: false,
+        slide: '.feature-item'
     });
 
 

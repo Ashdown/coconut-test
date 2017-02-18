@@ -1,4 +1,5 @@
 .features {
+
   .list {
     margin: 0;
     padding: 0;
@@ -10,15 +11,39 @@
     position: relative;
   }
 
-  .background-image {
+  .background-image,
+  .white-gutter-left,
+  .white-gutter-right {
+    height: 384px;
     position: absolute;
+    pointer-events: none;
+  }
+
+  .background-image {
     background: url('/assets/iphone-6-frame.png') no-repeat 0 0;
     background-size: 250px 511px;
     width: 250px;
-    height: 511px;
     left: 50%;
     margin-left: -125px;
-//    z-index: 500;
+    z-index: 100;
+  }
+
+  .white-gutter-left,
+  .white-gutter-right{
+    background-color: #fff;
+    z-index: 90;
+  }
+  .white-gutter-left {
+    left: 0;
+    right: 50%;
+    margin-right: 115px;
+  }
+
+  .white-gutter-right {
+    right: 0;
+    left: 50%;
+    margin-left: 115px;
+
   }
 
   .features-list {
@@ -74,6 +99,7 @@
     background-color: #fff;
     height: 76px;
     text-align: center;
+    z-index: 300;
   }
 
   .nav-item {
