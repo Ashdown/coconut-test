@@ -117,6 +117,20 @@
     height: auto;
   }
 
+  .cls-1,
+  .cls-2,
+  .cls-3 {
+    fill: #30262d;
+    transition: fill 0.3s ease;
+  }
 
+  .nav-link:hover,
+  .nav-link.selected {
+    .cls-1,
+    .cls-2,
+    .cls-3 {
+      fill: #73cbca;
+    }
+  }
 
 }
