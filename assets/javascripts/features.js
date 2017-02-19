@@ -65,7 +65,16 @@
         infinite: false,
         dots: false,
         slide: '.feature-item',
-        initialSlide: initialSlide
+        initialSlide: initialSlide,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    fade: true,
+                    cssEase: 'linear'
+                }
+            }
+        ]
     });
 
     $navLinks.eq(initialSlide).addClass('selected');
