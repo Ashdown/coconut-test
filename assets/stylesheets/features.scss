@@ -111,6 +111,14 @@
     text-align: center;
     display: inline-block;
     padding-top: 20px;
+    position: relative;
+    top: 35px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    &.visible {
+      top: 0;
+      opacity: 1;
+    }
   }
   svg {
     width: 35px;
