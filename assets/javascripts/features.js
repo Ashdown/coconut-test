@@ -45,6 +45,14 @@
 
     }
 
+    $navLinks.on('mouseover', function() {
+        $(this).addClass('hover');
+    });
+
+    $navLinks.on('mouseout', function() {
+        $(this).removeClass('hover');
+    });
+
     $navLinks.on('click', function(event) {
         event.preventDefault();
         $featuresList.slick('slickGoTo', $('.nav-link').index(this));

@@ -81,7 +81,7 @@
 
   .feature-title {
     font-size: 20px;
-    margin-top: 110px;
+    margin-top: 90px;
   }
 
   .para {
@@ -135,7 +135,7 @@
     transition: fill 0.3s ease;
   }
 
-  .nav-link:hover,
+  .nav-link.hover,
   .nav-link.selected {
     svg {
       border-color: #73cbca;
@@ -175,7 +175,7 @@
       padding: 0;
     }
     .feature-title {
-      margin-top: 90px;
+      margin-top: 70px;
       font-size: 24px;
     }
     .para {
