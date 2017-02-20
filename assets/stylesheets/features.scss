@@ -92,17 +92,21 @@
     font-size: 13px;
   }
 
-  .nav-list {
+  .nav-list-container {
+    overflow: hidden;
     position: absolute;
     top: 306px;
     right: 0;
     left: 0;
+    z-index: 300;
+  }
+
+  .nav-list {
     border-top: 1px solid #F0EEED;
     border-bottom: 1px solid #F0EEED;
     background-color: #fff;
-    height: 76px;
     text-align: center;
-    z-index: 300;
+    height: 76px;
   }
 
   .nav-item {
@@ -117,7 +121,7 @@
     position: relative;
     top: 35px;
     opacity: 0;
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
     &.visible {
       top: 0;
       opacity: 1;
@@ -188,8 +192,10 @@
       font-size: 16px;
       margin-top: 16px;
     }
-    .nav-list {
+    .nav-list-container {
       top: 342px;
+    }
+    .nav-list {
       height: 85px;
       max-width: 640px;
       margin-left: auto;

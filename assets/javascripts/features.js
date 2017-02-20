@@ -32,7 +32,7 @@
                 if((++offset * 2) < $navLinks.size()) {
                     fadeInSlides(offset);
                 }
-            }, 100);
+            }, 300);
         }
 
         if( pageScrollBottom >= bottomPositionOfList) {
