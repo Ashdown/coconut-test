@@ -59,8 +59,12 @@
     });
 
     $featuresList.on('beforeChange', function(event, slick, currentSlide, nextSlide){
-        $navLinks.removeClass('selected');
+        $navLinks.removeClass('selected').removeClass('hover');
         $navLinks.eq(nextSlide).addClass('selected');
+    });
+
+    $featuresList.on('afterChange', function() {
+        $navLinks.removeClass('hover');
     });
 
     //detect when this scrolls into view
