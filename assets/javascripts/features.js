@@ -23,7 +23,7 @@
     function checkForFadeIn() {
 
         var pageScrollBottom = helpers.getPageScrollBottom(),
-            bottomPositionOfList =  $featuresList.offset().top;
+            bottomPositionOfList =  $navLinks.offset().top + $navLinks.height() / 2;
 
         function fadeInSlides(offset) {
             window.setTimeout(function() {

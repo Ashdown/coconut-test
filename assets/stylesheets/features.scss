@@ -1,5 +1,7 @@
 .features {
 
+  position: relative;
+
   .list {
     margin: 0;
     padding: 0;
@@ -92,7 +94,7 @@
 
   .nav-list {
     position: absolute;
-    top: 444px;
+    top: 306px;
     right: 0;
     left: 0;
     border-top: 1px solid #F0EEED;
@@ -187,7 +189,7 @@
       margin-top: 16px;
     }
     .nav-list {
-      top: 480px;
+      top: 342px;
       height: 85px;
       max-width: 640px;
       margin-left: auto;
